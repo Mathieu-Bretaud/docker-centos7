@@ -10,10 +10,10 @@
 ##########################################################
 
 # Docker Registry
-DOCKER_REGISTRY=phenix-registry.edc.carrefour.com/datascience
+DOCKER_REGISTRY=*******/datascience
 
 # Proxy configuration
-PROXY_IP=10.54.64.5
+PROXY_IP=*******
 PROXY_PORT=8080
 PROXY=$(username):$(password)@$(PROXY_IP):$(PROXY_PORT)
 
